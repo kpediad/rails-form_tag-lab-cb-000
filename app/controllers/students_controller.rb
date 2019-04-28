@@ -12,7 +12,7 @@ class StudentsController < ApplicationController
   end
 
   def create
-    params.inspect
+    puts params
   end
 
 end
